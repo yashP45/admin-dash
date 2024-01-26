@@ -7,7 +7,7 @@ import {
   MdPublic,
   MdSearch,
 } from "react-icons/md";
-const navbar = () => {
+const Navbar = () => {
   const pathname = usePathname();
   return (
     <div className={styles.container}>
@@ -27,4 +27,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

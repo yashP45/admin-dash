@@ -13,7 +13,7 @@ const SingleUserPage = async ({ params }) => {
         <div className={styles.imgContainer}>
           <Image src="/noavatar.png" alt="" fill />
         </div>
-        {product.title}
+        {/* {product.title} */}
       </div>
       <div className={styles.formContainer}>
         <form className={styles.form}>
