@@ -24,7 +24,7 @@ export default function HomePage() {
               <ModalBody>
                 <p className="text-black">
                   Welcome to the Next.js Admin Dashboard project! This project
-                  is a result of my learning journey with Next.js, where I've
+                  is a result of my learning journey with Next.js, where I have
                   built an admin dashboard with custom tables, pagination ,
                   charts, and server actions to interact with a MongoDB
                   database. The project also utilizes Next UI for creating
