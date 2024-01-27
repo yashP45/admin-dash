@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js Admin Dashboard Project
+Welcome to the Next.js Admin Dashboard project! This project is a result of my learning journey with Next.js, where I've built an admin dashboard with custom tables, charts, and server actions to interact with a MongoDB database. The project also utilizes Next UI for creating tables.
 
-## Getting Started
+Table of Contents
+Introduction
+Features
+Technologies Used
+Getting Started
+Folder Structure
+Usage
+Screenshots
+Contributing
+License
+Introduction
+This project serves as a demonstration of my skills in building a web application using Next.js. It includes an admin dashboard that provides a user interface for managing users and products stored in a MongoDB database. The dashboard is designed with custom tables and charts to visualize data effectively.
 
-First, run the development server:
+Features
+Admin Dashboard
+Custom Tables
+Interactive Charts
+Server Actions (Add, Delete Users and Products)
+MongoDB Integration
+Next UI Integration
+Technologies Used
+Next.js
+React
+MongoDB
+Next UI
+[Other dependencies, if any]
+Getting Started
+To get started with the project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Clone the repository: git clone <repository-url>
+Install dependencies: npm install
+Set up MongoDB connection in the configuration file.
+Run the development server: npm run dev
+Folder Structure
+The project follows a specific folder structure to organize code efficiently. Here's an overview:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+lua
+Copy code
+nextjs-admin-dashboard/
+|-- pages/
+|-- components/
+|-- styles/
+|-- public/
+|-- server/
+|-- utils/
+|-- [...other folders]
+|-- README.md
+|-- package.json
+[Explain the purpose of each folder briefly]
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Usage
+Describe how to use the admin dashboard, any authentication requirements, and how to perform server actions (adding, deleting users/products).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Screenshots
+Include some screenshots or GIFs showcasing the admin dashboard, custom tables, and charts.
 
-## Learn More
+Contributing
+If you'd like to contribute to the project, please follow the contributing guidelines.
 
-To learn more about Next.js, take a look at the following resources:
+License
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to reach out if you have any questions or suggestions!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding! 🚀
